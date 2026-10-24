@@ -1,0 +1,1 @@
+import React from "react";export default function StatCard({label,value,sub,icon:Icon}){return <div className="stat-card"><div className="stat-top"><span>{label}</span><span className="stat-icon">{Icon&&<Icon size={18}/>}</span></div><strong>{value??"—"}</strong><small>{sub||"Live from your workspace"}</small></div>}
